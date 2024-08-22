@@ -5,22 +5,22 @@ import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { ExternalLink } from '@/components/ExternalLink';
 
-export default function AnimeScreen() {
+export default function Music() {
   return (
     <ParallaxScrollView
       headerBackgroundColor={{ light: '#FFB6C1', dark: '#7B3F61' }}
       headerImage={
         <Image
-          source={require('@/assets/images/anime.png')}
+          source={require('@/assets/images/music.png')}
           style={styles.animeHeader}
           resizeMode="cover"
         />
       }
     >
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Music World</ThemedText>
+        <ThemedText type="title">Music Hub</ThemedText>
       </ThemedView>
-      <ThemedText>Discover the latest and greatest in the world of anime!</ThemedText>
+      <ThemedText>Discover the latest and greatest in the world of music!</ThemedText>
 
       <ThemedView style={styles.section}>
         <ThemedText type="subtitle">Drake vs Kendrick</ThemedText>
