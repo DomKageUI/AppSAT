@@ -8,10 +8,10 @@ import { ExternalLink } from '@/components/ExternalLink';
 export default function Music() {
   return (
     <ParallaxScrollView
-      headerBackgroundColor={{ light: '#FFB6C1', dark: '#7B3F61' }}
+      headerBackgroundColor={{ light: '#FFB6C1', dark: '#06F5F8' }}
       headerImage={
         <Image
-          source={require('@/assets/images/music.png')}
+          source={require('@/assets/images/apple.png')}
           style={styles.animeHeader}
           resizeMode="cover"
         />
@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   animeHeader: {
-    height: 178,
+    height: 250,
     width: 290,
     bottom: 0,
     left: 0,
